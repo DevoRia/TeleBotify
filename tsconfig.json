@@ -3,9 +3,20 @@
     "target": "es5",
     "module": "commonjs",
     "outDir": "build",
-    "sourceMap": true
+    "strict": false,
+    "noImplicitAny": false,
+    "strictPropertyInitialization": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "resolveJsonModule": true
   },
+  "include": [
+    "src/*"
+  ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "./node_modules",
+    "./node_modules/*"
   ]
 }
