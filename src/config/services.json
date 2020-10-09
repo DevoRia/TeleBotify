@@ -1,0 +1,8 @@
+{
+  "firebaseConfig": {
+    "apiKey": "",
+    "projectId": "",
+    "databaseURL": "",
+    "storageBucket": ""
+  }
+}
